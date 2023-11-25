@@ -26,7 +26,7 @@ Print the accuracy of the model.<br>
 Plot the error convergence during training using plt.plot() and plt.show().<br>
 
 ## Program:
-~~~
+```py
 import numpy as np
 import pandas as pd
 from sklearn.neural_network import MLPClassifier
@@ -67,7 +67,7 @@ plt.title("MLP Training Loss Convergence")
 plt.xlabel("Iteration")
 plt.ylabel("Training Loss")
 plt.show()
-~~~
+```
 ## Output:
 
 ![image](https://github.com/Karthikeyan21001828/Experiment-6---Heart-attack-prediction-using-MLP/assets/93427303/2671b5f3-e078-4dda-83a9-c9fff41f8458)
